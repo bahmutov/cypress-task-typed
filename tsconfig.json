@@ -1,0 +1,8 @@
+{
+  "include": ["./cypress/index.d.ts", "./cypress/e2e/*.cy.ts"],
+  "compilerOptions": {
+    "types": ["cypress"],
+    "strict": true,
+    "noImplicitAny": true
+  }
+}
